@@ -1,0 +1,127 @@
+.user-deposits-page{
+
+    padding: 12vh 3vw 3vh 3vw;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.user-deposits-container1{
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.user-deposits{
+    width: 100%;
+    height: 100%;
+    margin-right: 20%;
+    padding: 3vh 2vw;
+
+}
+.user-deposits h3{
+
+    text-align: center;
+    color: rgb(50, 88, 116);
+    margin-bottom: 5vh;
+}
+
+.user-deposits-body{
+
+    /* background-color: aqua; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.user-deposits-body::-webkit-scrollbar {
+    display: none;
+}
+.user-deposits-body .user-deposit{
+
+    background-color: rgba(233, 236, 239, 0.676);
+    padding: 2vh 2vw;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.user-deposits-body .user-deposit span{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.user-deposits-body span p{
+
+    font-size: 0.9rem;
+    margin: 0;
+    color: rgb(34, 182, 152);
+}
+.user-deposits-body span p b{
+
+    font-weight: 500;
+    color: rgb(56, 110, 133);
+}
+
+
+.user-deposits-container2{
+    width: 50%;
+}
+
+.new-user-deposits-container{
+    width: 80%;
+    height: fit-content;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: rgba(211, 239, 229, 0.527);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 1.3rem;
+    padding: 3vh 2vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.new-user-deposits-container h3{
+    text-align: center;
+    color: rgb(41, 95, 118);
+}
+.new-user-deposits-container label{
+    color: rgb(47, 77, 90);
+}
+.new-user-deposits-container p{
+    text-align: justify;
+    color: rgba(73, 99, 112, 0.763);
+    font-size: 0.9rem;
+    margin: 0;
+}
+.new-user-deposits-container button{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.input-row{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.input-row .input-row11{
+    width: 80%;
+}
+.input-row .input-row21{
+    width: 40%;
+}
+.input-row .input-row22{
+    width: 60%;
+}
