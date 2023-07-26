@@ -1,0 +1,121 @@
+.loans-page{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding-top: 13vh;
+}
+
+.loans{
+    width: 60%;
+    height: 85vh;
+    margin-right: 5vw;
+    
+    padding-left: 3vw;
+
+}
+.loans h2{
+
+    color: rgba(50, 89, 116, 0.893);
+    margin-bottom: 5vh;
+}
+
+.loans-body{
+
+    width: 100%;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.loans-body::-webkit-scrollbar {
+    display: none;
+}
+.loans-body .loan{
+
+    background-color: rgba(233, 236, 239, 0.676);
+    padding: 2vh 2vw;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+
+}
+
+.loans-body .loan span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.loans-body span p{
+
+    font-size: 0.9rem;
+    margin: 0;
+    color: rgb(30, 122, 192);
+}
+.loans-body span p b{
+
+    font-weight: 500;
+    color: rgb(82, 130, 151);
+}
+
+
+
+.loan-requests-container{
+
+    width: 35%;
+    height: 85vh;
+    padding-right: 2vw;
+}
+
+.loan-requests-container h3{
+
+    margin-bottom: 4vh;
+    color: rgba(40, 94, 117, 0.947);
+}
+
+.loan-requests{
+
+    width: 100%;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.loan-requests::-webkit-scrollbar {
+    display: none;
+}
+
+.loan-request{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(238, 241, 244, 0.753);
+    padding: 2vh 2vw;
+    border-radius: 1rem;
+}
+
+.loan-request p{
+    margin: 0;
+    color: rgb(74, 136, 160);
+}
+
+.loan-request p b{
+    font-weight: 500;
+    color: rgb(72, 111, 126);
+}
+
+.loan-request span{
+    margin-top: 15px;
+    display: flex;
+    gap: 30px;
+}

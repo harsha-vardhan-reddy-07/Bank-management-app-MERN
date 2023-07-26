@@ -1,0 +1,174 @@
+.home-page{
+    width: 100%;
+    height: 90vh;
+    padding-top: 13vh;
+}
+
+.home-user-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+
+.home-user-data h3{
+    margin: 0;
+    color: rgb(15, 94, 44);
+}
+
+
+.home-user-data p{
+    margin: 0;
+    color: rgb(12, 103, 45);
+}
+
+
+.home-body{
+
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-top: 5vh;
+    
+}
+
+.home-container1{
+    width: 50%;
+}
+
+.balance-container{
+
+    width: 50%;
+    margin-left: 25%;
+    height: fit-content;
+    background-color: rgba(211, 239, 229, 0.527);
+    backdrop-filter: blur(15px);
+    text-align: center;
+    padding: 4vh 0;
+    border-radius: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.balance-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.balance-container h4{
+
+    color: rgb(78, 113, 135);
+    margin: 0;
+}
+.balance-container p{
+
+    color: rgb(20, 161, 74);
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.send-money-container{
+
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5vh;
+    background-color: rgba(211, 239, 229, 0.527);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 1.3rem;
+
+}
+.send-money-container form{
+    padding: 3vh 2vw; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.send-money-container form h4{
+    text-align: center;
+    color: rgb(70, 114, 145);
+}
+.send-money-container form input{
+    background-color: rgba(255, 255, 255, 0.79);
+}
+.send-money-container form label{
+    color: rgb(27, 64, 92);
+}
+.send-money-container form select {
+    height: 3.5rem;
+}
+.send-money-container form button{
+    width: 30%;
+    margin-left: 35%;
+}
+
+.home-container2{
+ 
+    width: 50%;
+}
+
+.user-transactions-container{
+    width: 80%;
+    height: 100%;
+    margin-right: 20%;
+    background-color: rgba(211, 239, 229, 0.527);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 1.3rem;
+    padding: 3vh 2vw;
+}
+
+.user-transactions-container h4{
+    text-align: center;
+    margin-bottom: 3vh;
+    color: rgb(70, 114, 145);
+}
+
+.user-transactions-body{
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+
+}
+.user-transactions-body::-webkit-scrollbar {
+    display: none;
+}
+
+.user-transactions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-transaction{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(210, 210, 210, 0.477);
+    border: 1px solid #97a0b34e;
+    padding: 1.5vh 2vw;
+    border-radius: 0.8rem;
+}
+
+.user-transaction span{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-transaction span p{
+    margin: 0;
+    font-size: 0.85rem;
+    
+}
+
+.money-sent{
+    color: rgb(184, 105, 105);
+}
+.money-received{
+    color: rgb(87, 155, 96);
+}
