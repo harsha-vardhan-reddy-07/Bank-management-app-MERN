@@ -1,0 +1,44 @@
+.admin-page{
+
+    height: 100vh;
+    padding-top: 13vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 30vh 30vh;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px !important;
+}
+
+.admin-card{
+
+    padding: 3vh 2vw;
+    text-align: center;
+    width: 20vw;
+    height: 150px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.admin-card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.admin-card h4{
+    margin: 0;
+
+}
+
+.admin-card p{
+
+    margin: 0;
+}
+
+.admin-card button{
+
+    
+}
